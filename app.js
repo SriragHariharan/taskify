@@ -1,9 +1,14 @@
 import React from "react";
 import ReactDOM from 'react-dom/client'
+import Navbar from "./components/Navbar";
+import TodoForm from "./components/TodoForm";
 
 const App = () => {
     return(
-        <h1>Hello world</h1>
+        <>
+            <Navbar />
+            <TodoForm />
+        </>
     )
 }
 
